@@ -1,722 +1,772 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-  <link rel="manifest" href="favicons/manifest.json">
-  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#ffc40d">
-  <link rel="shortcut icon" href="favicons/favicon.ico">
-  <meta name="msapplication-config" content="favicons/browserconfig.xml">
-  <meta name="theme-color" content="#da532c">
-  <!-- favicons code ends -->
-  <link type="text/plain" rel="author" href="humans.txt">
-  <title>Team | Cepstrum</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <!-- Bootstrap CCS library -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- favicons -->
+ <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+ <link rel="manifest" href="favicons/manifest.json">
+ <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#ffc40d">
+ <link rel="shortcut icon" href="favicons/favicon.ico">
+ <meta name="msapplication-config" content="favicons/browserconfig.xml">
+ <meta name="theme-color" content="#da532c">
+ <!-- favicons code ends -->
+ <link type="text/plain" rel="author" href="humans.txt">
+ <title>Team | Cepstrum</title>
+ <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+ <!-- Bootstrap CCS library -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  <link rel="stylesheet" type="text/css" href="common/common.min.css?v={a}">
-  <link rel="stylesheet" type="text/css" href="team/team.min.css?v={b}">
+ <link rel="stylesheet" type="text/css" href="common/common.min.css?v={a}">
+ <link rel="stylesheet" type="text/css" href="team/team.min.css?v={b}">
 </head>
 
 <body data-spy="scroll" data-target=".menu" data-offset="50">
-    <script src="harlem-shake.js"></script>
+   <script src="harlem-shake.js"></script>
 
 
-  <div id="preloader">
-    <div id="status">
-      <div class="loader">
-        <img src="common/blank.svg" class="blank" alt="Oscilloscope">
-      </div>
-      <p>Assembling circuit...</p>
-    </div>
-  </div>
+ <div id="preloader">
+   <div id="status">
+     <div class="loader">
+       <img src="common/blank.svg" class="blank" alt="Oscilloscope">
+     </div>
+     <p>Assembling circuit...</p>
+   </div>
+ </div>
 
-  <nav class="navbar navbar-inverse navbar-static-top" id="top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html"><img src="common/logo.svg" alt="logo"></a>
-        <a class="navbar-brand navbar-hide" href="https://www.facebook.com/Cepstrum/"><i class="fa fa-facebook fa-lg"></i></a>
-        <a class="navbar-brand navbar-hide" href="#contact"><i class="fa fa-phone fa-lg"></i></a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown">Initiatives <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="inphase.html">InPhase</a></li>
-              <li><a href="paperman.html">Paperman</a></li>
-              <li><a href="easylabs.html">Easy Labs</a></li>
-              <li><a href="hoeee.html">Humans of EEE</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown">Events <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="celebrations.html">Celebrations</a></li>
-              <li><a href="lectures.html">Lectures</a></li>
-              <li><a href="workshops.html">Workshops</a></li>
-            </ul>
-          </li>
-          <li class="active"><a href="team.html">Team</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right navbar-show">
-          <li><a class="navbar-brand" href="https://www.facebook.com/Cepstrum/"><i class="fa fa-facebook fa-lg"></i></a></li>
-          <li><a class="navbar-brand" href="#contact"><i class="fa fa-phone fa-lg"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
-
-  <header>
-    <div class="container-fluid">
-      <h1>Meet The Team!</h1>
-      <p class="intro">We are a bunch of students looking over the welfare of all students of the Department of EEE,
-        IIT Guwahati. We are the backbone of all the student activities right from freshers' orientation to farewell
-        and we take pride in bridging the gap between students, professors and alumni for continued parallel
-        development of the department.</p>
-    </div>
-  </header>
+ <nav class="navbar navbar-inverse navbar-static-top" id="top">
+   <div class="container-fluid">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand" href="index.html"><img src="common/logo.svg" alt="logo"></a>
+       <a class="navbar-brand navbar-hide" href="https://www.facebook.com/Cepstrum/"><i class="fa fa-facebook fa-lg"></i></a>
+       <a class="navbar-brand navbar-hide" href="#contact"><i class="fa fa-phone fa-lg"></i></a>
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav">
+         <li><a href="index.html">Home</a></li>
+         <li class="dropdown">
+           <a class="dropdown-toggle" data-toggle="dropdown">Initiatives <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+             <li><a href="inphase.html">InPhase</a></li>
+             <li><a href="paperman.html">Paperman</a></li>
+             <li><a href="easylabs.html">Easy Labs</a></li>
+             <li><a href="hoeee.html">Humans of EEE</a></li>
+           </ul>
+         </li>
+         <li class="dropdown">
+           <a class="dropdown-toggle" data-toggle="dropdown">Events <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+             <li><a href="celebrations.html">Celebrations</a></li>
+             <li><a href="lectures.html">Lectures</a></li>
+             <li><a href="workshops.html">Workshops</a></li>
+           </ul>
+         </li>
+         <li class="active"><a href="team.html">Team</a></li>
+       </ul>
+       <ul class="nav navbar-nav navbar-right navbar-show">
+         <li><a class="navbar-brand" href="https://www.facebook.com/Cepstrum/"><i class="fa fa-facebook fa-lg"></i></a></li>
+         <li><a class="navbar-brand" href="#contact"><i class="fa fa-phone fa-lg"></i></a></li>
+       </ul>
+     </div>
+   </div>
+ </nav>
 
 
-  <nav class="navbar navbar-inverse navbar-static-top menu" data-spy="affix" data-offset-top="390">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <div class="navbar-brand navbar-none" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1">Team
-          Sections</div>
-      </div>
-      <div>
-        <div class="collapse navbar-collapse" id="myNavbar1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#heads">Executives</a></li>
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Representatives<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#fourth">Fourth Year</a></li>
-                <li><a href="#third">Third Year</a></li>
-                <li><a href="#second">Second Year</a></li>
-                <li><a href="#masters">Masters</a></li>
-              </ul>
-            </li>
-            <li><a href="#inphase">InPhase</a></li>
-            <li><a href="#creatives">Creatives</a></li>
-            <li><a href="#webdev">Web Operations</a></li>
-            <li><a href="#library">Library Coordinators</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
 
-  <div class="container">
-    <div class="allfigures">
-
-      <a href="#top"><i class="fa fa-arrow-circle-o-up fa-4x"></i></a>
-
-      <div id="heads" class="break"></div>
+ <header>
+   <div class="container-fluid">
+     <h1>Meet The Team!</h1>
+     <p class="intro">We are a bunch of students looking over the welfare of all students of the Department of EEE,
+       IIT Guwahati. We are the backbone of all the student activities right from freshers' orientation to farewell
+       and we take pride in bridging the gap between students, professors and alumni for continued parallel
+       development of the department.</p>
+   </div>
+ </header>
 
 
-      <div class="row row2">
-        <div class="col-xs-12 col-sm-3 col-md-3">
+ <nav class="navbar navbar-inverse navbar-static-top menu" data-spy="affix" data-offset-top="390">
+   <div class="container-fluid">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <div class="navbar-brand navbar-none" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1">Team
+         Sections</div>
+     </div>
+     <div>
+       <div class="collapse navbar-collapse" id="myNavbar1">
+         <ul class="nav navbar-nav">
+           <li class="active"><a href="#heads">Executives</a></li>
+           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Representatives<span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="#fourth">Fourth Year</a></li>
+               <li><a href="#third">Third Year</a></li>
+               <li><a href="#second">Second Year</a></li>
+             </ul>
+           </li>
+           <li><a href="#inphase">InPhase</a></li>
+           <li><a href="#creatives">Creatives</a></li>
+           <li><a href="#webdev">Web Operations</a></li>
+         </ul>
+       </div>
+     </div>
+   </div>
+ </nav>
+
+ <div class="container">
+   <div class="allfigures">
+
+     <a href="#top"><i class="fa fa-arrow-circle-o-up fa-4x"></i></a>
+
+     <div id="heads" class="break"></div>
+
+
+     <div class="row row2">
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/ribhu.jpg" alt="Dr. Ribhu">
+           <div class="container1" style="padding-bottom: 40px;">
+             <h3>Dr. Ribhu</h3>
+             <p class="title">Faculty Incharge</p>
+             <p>ribhufec@iitg.ac.in <br /> </p>
+           </div>
+         </div>
+       </div>
+
+
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Parag Agrawal.jpg" alt="Konark">
+           <div class="container1">
+             <h3>Parag Agrawal</h3>
+             <p class="title">General Secretary</p>
+             <p>parag170108028@iitg.ac.in<br /> +91-8077564130</p>
+             <p><a href="https://www.facebook.com/parag.agrawal.908/"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/parag2719/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/arya.jpeg" alt="parag">
+           <div class="container1">
+             <h3>Arya Shrivastava</h3>
+             <p class="title">Associate General Secretary</p>
+             <p>shrivast@iitg.ac.in <br />+91-9954101510</p>
+             <p><a href="https://www.facebook.com/AaryaShrivastava19"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/aaryashrivastava/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+
+     </div>
+
+     <div class="row row2">
+       <div id="fourth" class="break"></div>
+       <h4>Fourth Year Representatives</h4>
+     </div>
+
+     <div class="row row2">
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Pratham Arora.jpg" alt="shruti">
+           <div class="container1">
+             <h3>Pratham Arora</h3>
+             <p class="title">Branch Representative, ECE</p>
+             <p>arora170106044@iitg.ac.in  <br /> +91-7663943712</p>
+             <p><a href="https://www.facebook.com/pratham.arora25"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/pratham-arora/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+
+
+         <div class="col-xs-12 col-sm-3 col-md-3">
+           <div class="figure">
+             <img src="team/abhinav.jpg" alt="shruti">
+             <div class="container1">
+               <h3>Abhinav Singh</h3>
+               <p class="title">Branch Representative, ECE</p>
+               <p>abhin170102002@iitg.ac.in <br /> +91-7906746990</p>
+               <p><a href="https://www.facebook.com/abhinavsingh2902/"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                   href="https://www.linkedin.com/in/abhinavsingh23/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+             </div>
+           </div>
+         </div>
+
+
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Mukul Ranjan.jpg" alt="vatsal">
+           <div class="container1">
+             <h3>Mukul Ranjan</h3>
+             <p class="title">Academic Representative</p>
+             <p>mukul170108024@iitg.ac.in <br />  +91-7033284121</p>
+             <p><a href="https://www.facebook.com/mukul.ranjan.984"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/mr54"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Reet Akshat.jpg" alt="reet">
+           <div class="container1">
+             <h3>Reet Akshat</h3>
+             <p class="title">Branch Representative, EEE</p>
+             <p>reet170108030@iitg.ac.in <br /> +91-9082088321</p>
+             <p><a href="https://www.facebook.com/reet.akshat.52"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/reet-2107/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+
+     </div>
+
+     <div class="row row2">
+       <div id="third" class="break"></div>
+       <h4>Third Year Representatives</h4>
+     </div>
+
+     <div class="row row2">
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Anjali Soni.jpg" alt="abhinav">">
+           <div class="container1">
+             <h3>Anjali Soni</h3>
+             <p class="title">Branch Representative, ECE</p>
+             <p>anjali18a@iitg.ac.in <br /> +91-6203402847</p>
+             <p><a href="https://m.facebook.com/anjalisoni3655"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/anjalisoni3655"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Vinayak Agarwal.jpg" alt="pratham">">
+           <div class="container1">
+             <h3>Vinayak Agarwal</h3>
+             <p class="title">Branch Representative, ECE</p>
+             <p>vinayak18@iitg.ac.in<br /> +91-7872118565 </p>
+             <p><a href="https://www.facebook.com/profile.php?id=100009396187753"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/vinayak-agarwal-abab341ab"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Raj Samal.jpg" alt="reet">
+           <div class="container1">
+             <h3>Raj Samal</h3>
+             <p class="title">Branch Representative, EEE</p>
+             <p>samal18@iitg.ac.in <br /> +91-6370240994</p>
+             <p><a href="https://www.facebook.com/rajsamal20/"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/rajsamal20/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+     <div class="col-xs-12 col-sm-3 col-md-3">
+       <div class="figure">
+         <img src="team/Anish Gupta.JPG" alt="mukul">
+         <div class="container1">
+           <h3>Anish Gupta</h3>
+           <p class="title">Academic Representative</p>
+           <p>anish18@iitg.ac.in<br /> +91-8447876288</p>
+           <p><a href="https://www.facebook.com/qwavinfla"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+               href="https://www.linkedin.com/in/anish592/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+         </div>
+       </div>
+     </div>
+
+
+     </div>
+
+
+     <div class="row row2">
+       <div id="second" class="break"></div>
+       <h4>Second Year Representatives</h4>
+     </div>
+
+     <div class="row row2">
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Ganesh Kide.jpeg" alt="mukul">
+           <div class="container1">
+             <h3>Ganesh Kide</h3>
+             <p class="title">Academic Representative</p>
+             <p>kideganesh888@gmail.com<br /> +91-8308487547</p>
+             <p><a href="https://www.facebook.com/ganesh.kide.524/"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://in.linkedin.com/in/ganesh-kide-2389381a0"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Shreya Goel.jpg" alt="mukul">
+           <div class="container1">
+             <h3>Shreya Goel</h3>
+             <p class="title">Academic Representative</p>
+             <p>shreya.goel@iitg.ac.in<br /> +91-8218944761</p>
+             <p><a href="https://www.facebook.com/shreya.goel.7399"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/shreya-goel-2b34821b3/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Janvi Kale.jpeg" alt="smita">
+           <div class="container1">
+             <h3>Janvi Kale</h3>
+             <p class="title">Branch Representative, ECE</p>
+             <p>k.janvi@iitg.ac.in<br /> +91-9653108499 </p>
+             <p><a href="https://www.facebook.com/janvi.kale.528"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/janvikale"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Shristi Hembram.JPG" alt="priyank">
+           <div class="container1">
+             <h3>Shristi Hembram</h3>
+             <p class="title">Branch Representative, EEE</p>
+             <p>s.hembram@iitg.ac.in<br /> +91-7637834918</p>
+             <p><a href="https://www.facebook.com/shristi.hembram/"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/shristi-hembram-652217196/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+       </div>
+       <div class="row row2">
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Piyanshu Jain.jpeg" alt="arya">
+           <div class="container1">
+             <h3>Piyanshu Jain</h3>
+             <p class="title">Branch Representative, EEE</p>
+             <p>piyanshujain@iitg.ac.in <br />+91-6261317693 </p>
+             <p><a href="https://www.facebook.com/piyanshu.jain.75"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/piyanshu-jain-2a2a19196"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Thanush Kilaru.jpg" alt="arya">
+           <div class="container1">
+             <h3>Thanush Kilaru</h3>
+             <p class="title">Branch Representative, ECE</p>
+             <p>k.thanush@iitg.ac.in <br />+91-9121553630 </p>
+             <p><a href="https://www.facebook.com/thanush.kilaru"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/thanush-kilaru-1186b71b3"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+
+       </div>
+
+     <div class="row row2">
+       <div id="inphase" class="break"></div>
+       <h4>Team InPhase</h4>
+     </div>
+
+     <div class="row row2">
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Mayank Soni.jpg" alt="deepti">
+           <div class="container1">
+             <h3>Mayank Soni</h3>
+             <p class="title">Inphase and Design mentor</p>
+             <p>mayan170108023@iitg.ac.in<br /> +91-9079153129</p>
+             <p><a href="https://www.facebook.com/profile.php?id=100019945020548"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="#"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Sushant Timmapur.jpg" alt="anupam">
+           <div class="container1">
+             <h3>Sushant Timmapur</h3>
+             <p class="title">Design Head</p>
+             <p>sushitimmapur@gmail.com<br /> +91-7259795465</p>
+             <p><a href="https://www.facebook.com/profile.php?id=100008371962931"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/sushant-timmapur-4793b1192/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
           <div class="figure">
-            <img src="team/ribhu.jpg" alt="Dr. Ribhu">
-            <div class="container1" style="padding-bottom: 40px;">
-              <h3>Dr. Ribhu</h3>
-              <p class="title">Faculty Incharge</p>
-              <p>ribhufec@iitg.ac.in <br /> </p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/konark.jpg" alt="Konark">
+            <img src="team/Samruddhi Marathe.jpg" alt="samruddhi">
             <div class="container1">
-              <h3>Konark Jain</h3>
-              <p class="title">General Secretary</p>
-              <p>konark.145@iitg.ac.in <br /> +91-9957997211</p>
-              <p><a href="https://www.facebook.com/konark.145.jain"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://in.linkedin.com/in/konarkj"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/parag.jpg" alt="parag">
-            <div class="container1">
-              <h3>Parag Agrawal</h3>
-              <p class="title">Associate General Secretary</p>
-              <p>parag170108028@iitg.ac.in <br />+91-8265874092</p>
-              <p><a href="https://www.facebook.com/parag.agrawal.908"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/parag2719/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-
-      <div class="row row2">
-        <div id="fourth" class="break"></div>
-        <h4>Fourth Year Representatives</h4>
-      </div>
-
-      <div class="row row2">
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/shruti.jpg" alt="shruti">
-            <div class="container1">
-              <h3>Shruti Mittal</h3>
-              <p class="title">Branch Representative, ECE</p>
-              <p>shrutimittal@iitg.ac.in  <br /> +91-9957986955</p>
-              <p><a href="https://www.facebook.com/shruti.mittal.566790"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/shruti-mittal-a2828a131/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/vatsal.jpg" alt="vatsal">
-            <div class="container1">
-              <h3>Vatsal Goel</h3>
-              <p class="title">Branch Representative, EEE</p>
-              <p>vatsal29@iitg.ac.in <br />  +91-7709082210</p>
-              <p><a href="https://www.facebook.com/vatsalgl"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/vatsalgl/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-
-      <div class="row row2">
-        <div id="third" class="break"></div>
-        <h4>Third Year Representatives</h4>
-      </div>
-
-      <div class="row row2">
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/abhinav.jpg" alt="abhinav">">
-            <div class="container1">
-              <h3>Abhinav Singh</h3>
-              <p class="title">Branch Representative, ECE</p>
-              <p>abhin170102002@iitg.ac.in <br /> +91-7906746990</p>
-              <p><a href="https://www.facebook.com/people/Abhinav-Singh/100017352670924"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/abhinavsingh23/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/Pratham Arora.jpg" alt="pratham">">
-            <div class="container1">
-              <h3>Pratham Arora</h3>
-              <p class="title">Branch Representative, ECE</p>
-              <p>arora170106044@iitg.ac.in <br /> </p>
-              <p><a href="https://www.facebook.com/pratham.arora25"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/pratham-arora/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/reet2.jpg" alt="reet">
-            <div class="container1">
-              <h3>Reet Akshat</h3>
-              <p class="title">Branch Representative, EEE</p>
-              <p>reet170108030@iitg.ac.in <br /> +91-9082088321</p>
-              <p><a href="https://www.facebook.com/reet.akshat.52"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/reet-2107/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-      <div class="col-xs-12 col-sm-3 col-md-3">
-        <div class="figure">
-          <img src="team/mukul2.jpg" alt="mukul">
-          <div class="container1">
-            <h3>Mukul Ranjan</h3>
-            <p class="title">Academic Representative</p>
-            <p>mukul170108024@iitg.ac.in <br /> +91-7033284121</p>
-            <p><a href="https://www.facebook.com/mukul.ranjan.984"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                href="https://www.linkedin.com/in/mr54/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-3 col-md-3">
-        <div class="figure">
-          <img src="team/lakshya.jpg" alt="lakshya">
-          <div class="container1">
-            <h3>Lakshya Choudhary</h3>
-            <p class="title">Academic Representative</p>
-            <p> <br /> +91-9928984008 </p>
-            <p><a href="https://www.facebook.com/lakshya.choudhary"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                href="https://www.linkedin.com/in/lakshya33/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-          </div>
-        </div>
-      </div>
-
-      </div>
-
-
-      <div class="row row2">
-        <div id="second" class="break"></div>
-        <h4>Second Year Representatives</h4>
-      </div>
-
-      <div class="row row2">
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/smita.jpg" alt="smita">
-            <div class="container1">
-              <h3>Smita Saxena</h3>
-              <p class="title">Branch Representative, ECE</p>
-              <p>smita18@iitg.ac.in<br /> +91-6900400922 </p>
-              <p><a href="https://www.facebook.com/smita.saxena.3998263"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/smita-saxena-a76851175/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/priyank.jpg" alt="priyank">
-            <div class="container1">
-              <h3>Priyank Kadian</h3>
-              <p class="title">Branch Representative, EEE</p>
-              <p> priyank18@iitg.ac.in<br /> +91-9466518491</p>
-              <p><a href="https://www.facebook.com/priyank.kadian"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/priyank-kadian-1582b3186/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/arya.jpg" alt="arya">
-            <div class="container1">
-              <h3>Arya Shrivastava</h3>
-              <p class="title">Branch Representative, EEE</p>
-              <p>shrivast@iitg.ac.in <br />+91-9954101510 </p>
-              <p><a href="https://www.facebook.com/arya.shrivastava.75491"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/aarya-shrivastava-bba7b5179/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        </div>
-
-
-
-      <div class="row row2">
-        <div id="girls" class="break"></div>
-        <h4>Girls' Representative</h4>
-      </div>
-
-      <div class="row row2">
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/anjali.jpg" alt="anjali">
-            <div class="container1">
-              <h3>Anjali Soni</h3>
-              <p class="title">Girls' Representative</p>
-              <p>anjali18a@iitg.ac.in <br /> +91-6203402847</p>
-              <p><a href="https://www.facebook.com/profile.php?id=100027642936217"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/anjali-soni-40447716b/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row row2">
-        <div id="inphase" class="break"></div>
-        <h4>Team InPhase</h4>
-      </div>
-
-      <div class="row row2">
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/deepti.jpg" alt="deepti">
-            <div class="container1">
-              <h3>Deepti Mathur</h3>
+              <h3>Samruddhi Marathe</h3>
               <p class="title">Supervising Editor</p>
-              <p>deeptimathur_1904@iitg.ac.in<br /> +91-9530072989</p>
-              <p><a href="https://www.facebook.com/deepti.mathur.73"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/deepti-mathur-212145131/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
+              <p>samruddh@iitg.ac.in<br /> +91-7578877155</p>
+              <p><a href="https://www.facebook.com/samruddhi.marathe.391"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/samruddhi-marathe-854369168/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
 
-        <div class="col-xs-12 col-sm-3 col-md-3">
+       <div class="col-xs-12 col-sm-3 col-md-3">
           <div class="figure">
-            <img src="team/anupam.jpg" alt="anupam">
+            <img src="team/Snigdha Jain.jpg" alt="raj">
             <div class="container1">
-              <h3>Anupam Khandelwal</h3>
-              <p class="title">Chief Designer</p>
-              <p>anupam1997@iitg.ac.in<br /> +91-9957964520</p>
-              <p><a href="https://www.facebook.com/anupamkk1729"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/anupam1997/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
+              <h3>Snigdha Jain</h3>
+              <p class="title">Editor</p>
+              <p>snigdha.jain30@gmail.com<br /> +91-8404080854</p>
+              <p><a href="https://www.facebook.com/snigdha.jain.9041"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/snigdha-jain-87b6aa196"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
 
-        <div class="col-xs-12 col-sm-3 col-md-3">
-           <div class="figure">
-             <img src="team/samruddhi.jpg" alt="samruddhi">
-             <div class="container1">
-               <h3>Samruddhi Marathe</h3>
-               <p class="title">Editor</p>
-               <p>samruddh@iitg.ac.in<br /> +91-7578877155</p>
-               <p><a href="https://www.facebook.com/samruddhi.marathe.391"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/samruddhi-marathe-854369168/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-           <div class="figure">
-             <img src="team/raj.jpg" alt="raj">
-             <div class="container1">
-               <h3>Raj Samal</h3>
-               <p class="title">Editor</p>
-               <p>samal18@iitg.ac.in<br /> +91-6370240994</p>
-               <p><a href="https://www.facebook.com/rajsamal20"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/raj-samal-71543b175/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-           <div class="figure">
-             <img src="team/yashwant.jpg" alt="yashwanth">
-             <div class="container1">
-               <h3>Yash Wanth</h3>
-               <p class="title">Designer</p>
-               <p>yashwant18@iitg.ac.in<br /> </p>
-               <p><a href="https://www.facebook.com/profile.php?id=100011686931983"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="#"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-           <div class="figure">
-             <img src="team/sushant.jpg" alt="sushant">
-             <div class="container1">
-               <h3>Sushant Timmapur</h3>
-               <p class="title">Designer</p>
-               <p>timmapur@iitg.ac.in<br />+91-7259795465 </p>
-               <p><a href="https://www.facebook.com/profile.php?id=100008371962931"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="#"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-           <div class="figure">
-             <img src="team/amulya.jpg" alt="amulya">
-             <div class="container1">
-               <h3>Amulya Dubey</h3>
-               <p class="title">Content Curator</p>
-               <p>amulya@iitg.ac.in<br /> +91-8433441833 </p>
-               <p><a href="https://www.facebook.com/amulya.dubey.56"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/amulya-dubey-a25899187/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-           <div class="figure">
-             <img src="team/arihant.jpg" alt="arihant">
-             <div class="container1">
-               <h3>Arihant Barjatya</h3>
-               <p class="title">Content Curator</p>
-               <p>barjatya@iitg.ac.in<br /> </p>
-               <p><a href="https://www.facebook.com/arihant.barjatya.12"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/arihant-barjatya-157319175/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-           <div class="figure">
-             <img src="team/amulya.jpg" alt="amulya">
-             <div class="container1">
-               <h3>Amulya Dubey</h3>
-               <p class="title">Branding Executive</p>
-               <p>amulya@iitg.ac.in<br />+91-8433441833 </p>
-               <p><a href="https://www.facebook.com/amulya.dubey.56"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/amulya-dubey-a25899187/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-      <div class="row row2">
-        <div id="creatives" class="break"></div>
-        <h4>Creatives</h4>
-      </div>
-
-      <div class="row row2">
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
+       <div class="col-xs-12 col-sm-3 col-md-3">
           <div class="figure">
-            <img src="team/mayanksoni.jpg" alt="mayank">
+            <img src="team/Shirin Jain.jpg" alt="raj">
             <div class="container1">
-              <h3>Mayank Soni</h3>
-              <p class="title">Creatives Head</p>
-              <p>mayan170108023@iitg.ac.in <br /> +91-9079153129</p>
-              <p><a href="https://www.facebook.com/profile.php?id=100019945020548"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="#"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
+              <h3>Shirin Jain</h3>
+              <p class="title">Editor</p>
+              <p>shirin.jain@iitg.ac.in<br /> +91-8404080289</p>
+              <p><a href="https://www.facebook.com/shirin.jain.73"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/shirin-jain-8374a4196"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
 
-        <div class="col-xs-12 col-sm-3 col-md-3">
-           <div class="figure">
-             <img src="team/sushant.jpg" alt="sushant">
-             <div class="container1">
-               <h3>Sushant Timmapur</h3>
-               <p class="title">Creatives</p>
-               <p>timmapur@iitg.ac.in<br />+91-7259795465 </p>
-               <p><a href="https://www.facebook.com/profile.php?id=100008371962931"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="#"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-xs-12 col-sm-3 col-md-3">
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
           <div class="figure">
-            <img src="team/tushar.jpg" alt="tushar">
+            <img src="team/Tanmay Shreshth.jpg" alt="amulya">
             <div class="container1">
-              <h3>Tushar Bohra</h3>
+              <h3>Tanmay Shreshth</h3>
+              <p class="title">Content Curator</p>
+              <p>tanmay.shreshth@iitg.ac.in<br /> +91-7004771430 </p>
+              <p><a href="https://www.facebook.com/tanmay.shreshth.77"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/tanmay-shreshth-6aa5501a6"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="figure">
+            <img src="team/Tanmay Thakur.jpg" alt="amulya">
+            <div class="container1">
+              <h3>Tanmay Thakur</h3>
+              <p class="title">Content Curator</p>
+              <p>t.tanmay@iitg.ac.in<br /> +91-9545933428 </p>
+              <p><a href="https://www.facebook.com/tanmay1024"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/tanmay-thakur-a96a4b127"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+       <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="figure">
+            <img src="team/Bhaswati Boro.jpg" alt="arihant">
+            <div class="container1">
+              <h3>Bhaswati Boro</h3>
+              <p class="title">Content Curator</p>
+              <p>b.boro@iitg.ac.in<br /> +91-7002500336</p>
+              <p><a href="https://www.facebook.com/bhaswati.boro.18"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/bhaswati-boro-716001191"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+
+     </div>
+
+
+     <div class="row row2">
+       <div id="creatives" class="break"></div>
+       <h4>Creatives</h4>
+     </div>
+
+     <div class="row row2">
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="figure">
+            <img src="team/Tanmay Thakur.jpg" alt="amulya">
+            <div class="container1">
+              <h3>Tanmay Thakur</h3>
               <p class="title">Creatives</p>
-              <p>bohra@iitg.ac.in <br />+91-9462737309 </p>
-              <p><a href="https://www.facebook.com/profile.php?id=100006169759386"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/tushar-bohra-a68343173/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
+              <p>t.tanmay@iitg.ac.in<br /> +91-9545933428 </p>
+              <p><a href="https://www.facebook.com/tanmay1024"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/tanmay-thakur-a96a4b127"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+       <div class="col-xs-12 col-sm-3 col-md-3">
           <div class="figure">
-            <img src="team/suraj.jpg" alt="suraj">
+            <img src="team/Bhaswati Boro.jpg" alt="arihant">
             <div class="container1">
-              <h3>Suraj Raj Karingala</h3>
+              <h3>Bhaswati Boro</h3>
               <p class="title">Creatives</p>
-              <p>karingal@iitg.ac.in <br />+91-9085732357 </p>
-              <p><a href="https://www.facebook.com/surajraj.karingala"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/suraj-raj-karingala-658b65172/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row row2">
-        <div id="events" class="break"></div>
-        <h4>Events</h4>
-      </div>
+              <p>b.boro@iitg.ac.in<br /> +91-7002500336</p>
+              <p><a href="https://www.facebook.com/bhaswati.boro.18"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/bhaswati-boro-716001191"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
 
 
-      <div class="row row2">
+     </div>
 
-        <div class="col-xs-12 col-sm-3 col-md-3">
+     <div class="row row2">
+       <div id="events" class="break"></div>
+       <h4>Events</h4>
+     </div>
+
+
+     <div class="row row2">
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Karthik Tata.jpg" alt="karthik">
+           <div class="container1">
+             <h3>Karthik Tata</h3>
+             <p class="title">Events Mentor</p>
+             <p>karth170102064@iitg.ac.in <br /> +91-9490599000</p>
+             <p><a href="https://www.facebook.com/Karthik.tsg"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/karthik-tata/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Chitrabanu T.jpg" alt="karthik">
+           <div class="container1">
+             <h3>Chitrabanu T</h3>
+             <p class="title">Events Manager</p>
+             <p>t.chitrabanu@iitg.ac.in <br /> +91-7868990011</p>
+             <p><a href="https://www.facebook.com/chitrabanu.t.1"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/chitrabanu-t-8994861b3/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/S PREETHAM ABHISHEK.jpg" alt="karthik">
+           <div class="container1">
+             <h3>S PREETHAM ABHISHEK</h3>
+             <p class="title">Events Manager</p>
+             <p>s.preetham@iitg.ac.in <br /> +91-8328434698</p>
+             <p><a href="https://www.facebook.com/preetham.abhishek.9"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/preetham-abhishek-728752199"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+
+     </div>
+
+     <div class="row row2">
+       <div id="webdev" class="break"></div>
+       <h4>Web Operations</h4>
+     </div>
+
+     <div class="row row2">
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Samaksh Tak.jpg" alt="abhinav">">
+           <div class="container1">
+             <h3>Samaksh Tak</h3>
+             <p class="title">Web Operations Head</p>
+             <p>samaksh@iitg.ac.in <br /> +91-9414175382</p>
+             <p><a href="https://www.facebook.com/samaksh.tak"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/samaksh-tak"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Stuti.jpg" alt="abhinav">">
+           <div class="container1">
+             <h3>Stuti K</h3>
+             <p class="title">Web Operations Head</p>
+             <p>stuti@iitg.ac.in <br /> +91-9549213999</p>
+             <p><a href="https://www.facebook.com/stuti.k.712"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/stuti-2541a1175/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Jayant Jaiswal.jpg" alt="priyank">
+           <div class="container1">
+             <h3>Jayant Jaiswal</h3>
+             <p class="title">Web Operations</p>
+             <p>jayant.jaiswal@iitg.ac.in<br />+91-8721097556</p>
+             <p><a href="https://www.facebook.com/jayant.jaiswal.104"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/jayant-jaiswal-171a16184"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+
+
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
+         <div class="figure">
+           <img src="team/Yash Singhal.jpg" alt="priyank">
+           <div class="container1">
+             <h3>Yash Singhal</h3>
+             <p class="title">Web Operations</p>
+             <p>ysinghal@iitg.ac.in <br />+91-9166465345</p>
+             <p><a href="https://www.facebook.com/yash.singhal.142"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/yash-singhal-981827196"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
+       </div>
+         <div class="row row2">
+
+       <div class="col-xs-12 col-sm-3 col-md-3">
           <div class="figure">
-            <img src="team/karthik.jpg" alt="karthik">
+            <img src="team/Snigdha Jain.jpg" alt="raj">
             <div class="container1">
-              <h3>Karthik Tsg</h3>
-              <p class="title">Events Head</p>
-              <p>karth170102064@iitg.ac.in <br /> +91-9490599000</p>
-              <p><a href="https://www.facebook.com/Karthik.tsg"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/karthik-tata/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row row2">
-        <div id="webdev" class="break"></div>
-        <h4>Web Operations</h4>
-      </div>
-
-      <div class="row row2">
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/abhinav.jpg" alt="abhinav">">
-            <div class="container1">
-              <h3>Abhinav Singh</h3>
-              <p class="title">Web Operations Head</p>
-              <p>abhin170102002@iitg.ac.in <br /> +91-7906746990</p>
-              <p><a href="https://www.facebook.com/people/Abhinav-Singh/100017352670924"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/abhinavsingh23/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/alpana.jpg" alt="alpana">
-            <div class="container1">
-              <h3>Alpana Bhujabala</h3>
-              <p class="title">Second Year</p>
-              <p>alpana18@iitg.ac.in <br /> +91-9078151711</p>
-              <p><a href="https://www.facebook.com/alpana.bhujabala"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/alpana-bhujabala-207857168/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/stuti.jpg" alt="stuti">
-            <div class="container1">
-              <h3>Stuti</h3>
-              <p class="title">Second Year</p>
-              <p>stuti@iitg.ac.in <br /> +91-9549213999</p>
-              <p><a href="https://www.facebook.com/stuti.k.712"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/stuti-kumar-2541a1175/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="figure">
-            <img src="team/priyank.jpg" alt="priyank">
-            <div class="container1">
-              <h3>Priyank Kadian</h3>
-              <p class="title">Second Year</p>
-              <p>priyank18@iitg.ac.in <br />+91-9466518491</p>
-              <p><a href="https://www.facebook.com/priyank.kadian"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
-                  href="https://www.linkedin.com/in/priyank-kadian-1582b3186/"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </div>
+              <h3>Snigdha Jain</h3>
+              <p class="title">Web Operations</p>
+              <p>snigdha.jain30@gmail.com<br /> +91-8404080854</p>
+              <p><a href="https://www.facebook.com/snigdha.jain.9041"><i class="fa fa-facebook-square fa-2x web-link-icon"></i></a><a
+                 href="https://www.linkedin.com/in/snigdha-jain-87b6aa196"><i class="fa fa-linkedin-square fa-2x web-link-icon"></i></a></p>
+           </div>
+         </div>
+       </div>
 
 
 
-  <div class="container-fluid card footer">
-    <div id="contact" class="row">
-      <div class="col-md-2">
-        <h3><strong>Quick links</strong></h3>
-        <a href="http://www.iitg.ac.in/">IIT Guwahati</a>
-        <br><a href="http://www.iitg.ac.in/eee/">Department of EEE</a>
-      </div>
-      <div class="col-md-8">
-        <h3><strong>Contact Us</strong></h3>
-        <div class="row">
-          <div class="col-md-6">
-            <p> E-mail: cepstrum@iitg.ac.in<br> General Secretary (Konark Jain): 9957997211<br> Assoc. Gen Sec
-              (Parag Agrawal): 8265874092</p>
-          </div>
-          <div class="col-md-6">
-            <p> E-mail (InPhase): inphase@iitg.ac.in<br> Chief Editor (Deepti Mathur): 9530072989<br> Web Ops (Abhinav Singh):
-              7906746990</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <h3><strong>Follow Us</strong></h3>
-        <a href="https://www.facebook.com/Cepstrum/">Facebook <i class="fa fa-lg fa-facebook"></i> </a>
-        <br><a href="https://medium.com/@cepstrumeeeiitg">Medium <i class="fa fa-lg fa-medium"></i> </a>
-        <br><a href="https://www.youtube.com/user/ECEatIITG">YouTube <i class="fa fa-lg fa-youtube-play"></i> </a>
-      </div>
-    </div>
-    <div class="row credits">
-      <div class="col-md-4">
-        <em><strong>Behind the code and design: </strong> Sarvesh Raj, Nilesh Mittal</em>
-      </div>
-      <div class="col-md-8">
-        <em><strong>Behind the content: </strong> Sai Bhaskar, Uddeshya Mathur, Sasank Gurajapu</em>
-      </div>
-    </div>
-  </div>
 
-  <!-- jQuery library -->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Latest compiled JavaScript -->
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!-- font awesome library -->
-  <script type="text/javascript" src="https://use.fontawesome.com/c2f7320238.js"></script>
 
-  <script>
-    // Add smooth scrolling
-    $(document).ready(function () {
-      // Add scrollspy to <body>
-      $('body').scrollspy({
-        target: ".navbar",
-        offset: 0
-      });
+     </div>
 
-      // Add smooth scrolling on all links inside the navbar
-      $("#myNavbar1 a").on('click', function (event) {
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
+   </div>
+ </div>
 
-          // Store hash
-          var hash = this.hash;
 
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 1000, function () {
 
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-    // make sure window is loaded
-    jQuery(window).on('load', function () {
-      // will first fade out the loading animation
-      jQuery("#status").fadeOut();
-      // will fade out the whole DIV that covers the website.
-      jQuery("#preloader").delay(1000).fadeOut("slow");
-    })
-  </script>
+ <div class="container-fluid card footer">
+   <div id="contact" class="row">
+     <div class="col-md-2">
+       <h3><strong>Quick links</strong></h3>
+       <a href="http://www.iitg.ac.in/">IIT Guwahati</a>
+       <br><a href="http://www.iitg.ac.in/eee/">Department of EEE</a>
+     </div>
+     <div class="col-md-8">
+       <h3><strong>Contact Us</strong></h3>
+       <div class="row">
+         <div class="col-md-6">
+           <p> E-mail: cepstrum@iitg.ac.in<br> General Secretary (Parag Agrawal): 8265874092<br> Assoc. Gen Sec
+             (Aarya Shrivastava): 9954101510</p>
+         </div>
+         <div class="col-md-6">
+           <p> E-mail (InPhase): inphase@iitg.ac.in <br> Chief Editor (Samruddhi Marathe): 7578877155 <br>Web Ops:(Stuti K):9549213999 <br>Web Ops: (Samaksh Tak):9414175382 </p>
+         </div>
+       </div>
+     </div>
+     <div class="col-md-2">
+       <h3><strong>Follow Us</strong></h3>
+       <a href="https://www.facebook.com/Cepstrum/">Facebook <i class="fa fa-lg fa-facebook"></i> </a>
+       <br><a href="https://medium.com/@cepstrumeeeiitg">Medium <i class="fa fa-lg fa-medium"></i> </a>
+       <br><a href="https://www.linkedin.com/company/cepstrum">Linkedin <i class="fa fa-lg fa-linkedin"></i> </a>
+       <br><a href="https://www.instagram.com/cepstrum_iitg/">Instagram <i class="fa fa-lg fa-instagram"></i> </a>
+       <br><a href="https://www.youtube.com/user/ECEatIITG">YouTube <i class="fa fa-lg fa-youtube-play"></i> </a>
+     </div>
+   </div>
+   <div class="row credits">
+     <div class="col-md-4">
+       <em><strong>Behind the code and design: </strong> Sarvesh Raj, Nilesh Mittal</em>
+     </div>
+     <div class="col-md-8">
+       <em><strong>Behind the content: </strong> Sai Bhaskar, Uddeshya Mathur, Sasank Gurajapu</em>
+     </div>
+   </div>
+ </div>
+
+ <!-- jQuery library -->
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <!-- Latest compiled JavaScript -->
+ <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!-- font awesome library -->
+ <script type="text/javascript" src="https://use.fontawesome.com/c2f7320238.js"></script>
+
+ <script>
+   // Add smooth scrolling
+   $(document).ready(function () {
+     // Add scrollspy to <body>
+     $('body').scrollspy({
+       target: ".navbar",
+       offset: 0
+     });
+
+     // Add smooth scrolling on all links inside the navbar
+     $("#myNavbar1 a").on('click', function (event) {
+       // Make sure this.hash has a value before overriding default behavior
+       if (this.hash !== "") {
+         // Prevent default anchor click behavior
+         event.preventDefault();
+
+         // Store hash
+         var hash = this.hash;
+
+         // Using jQuery's animate() method to add smooth page scroll
+         // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+         $('html, body').animate({
+           scrollTop: $(hash).offset().top
+         }, 1000, function () {
+
+           // Add hash (#) to URL when done scrolling (default click behavior)
+           window.location.hash = hash;
+         });
+       } // End if
+     });
+   });
+   // make sure window is loaded
+   jQuery(window).on('load', function () {
+     // will first fade out the loading animation
+     jQuery("#status").fadeOut();
+     // will fade out the whole DIV that covers the website.
+     jQuery("#preloader").delay(1000).fadeOut("slow");
+   })
+ </script>
 </body>
 
 </html>
