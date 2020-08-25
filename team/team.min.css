@@ -42,7 +42,7 @@ h4 {
 
 header {
     margin: 0 auto;
-    background: url(group2.jpg);
+    background: url("group2.jpg");
     background-size: cover;
     color: #fff;
     padding: 50px;
