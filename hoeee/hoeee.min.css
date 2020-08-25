@@ -1,0 +1,433 @@
+body {
+    background-color: #fafafa
+}
+
+.content {
+    margin: 2.2vw
+}
+
+figure.card {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 1%;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    border-left: 6px solid #000
+}
+
+figure.card img {
+    max-width: 100%;
+    vertical-align: middle
+}
+
+figure.card blockquote {
+    position: relative;
+    background-color: #fff;
+    padding: 25px 50px 25px 50px;
+    font-size: 1.02vw;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+    line-height: 1.6em
+}
+
+figure.card blockquote.large {
+    font-size: .95vw
+}
+
+figure.card blockquote:after,
+figure.card blockquote:before {
+    font-family: FontAwesome;
+    content: "\201C";
+    position: absolute;
+    font-size: 3.66vw;
+    opacity: .3;
+    font-style: normal
+}
+
+figure.card blockquote:before {
+    top: 25px;
+    left: 20px
+}
+
+figure.card blockquote:after {
+    content: "\201D";
+    right: 20px;
+    bottom: 0
+}
+
+figure.card .arrow {
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #fff;
+    margin: 0;
+    position: absolute
+}
+
+figure.card .author {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: .36vw 1.46vw;
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+    text-transform: uppercase
+}
+
+figure.card .author h5 {
+    opacity: .8;
+    margin: 0;
+    font-weight: 800
+}
+
+figure.card .author h5 span {
+    font-weight: 400;
+    text-transform: none;
+    padding-left: 5px
+}
+
+div.bgm {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background: url(collage.jpg);
+    width: 100vw;
+    height: 75vh;
+    background-size: cover
+}
+
+header {
+    background: #212121;
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+    background-size: cover;
+    white-space: nowrap;
+    width: 100vw;
+    height: 75vh;
+    padding-top: 15vh
+}
+
+header>div>p {
+    font-size: 5.49vw;
+    font-weight: 700;
+    word-spacing: 7.32vw;
+    letter-spacing: .73vw;
+    border-right: 4px solid transparent;
+    -webkit-animation: typing 3.5s steps(24, end), blink .75s step-end 5;
+    animation: typing 3.5s steps(24, end), blink .75s step-end 5;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+@-webkit-keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        border-color: #fff
+    }
+
+    50% {
+        border-color: transparent
+    }
+
+    100% {
+        border-color: #fff
+    }
+}
+
+@keyframes blink {
+    0% {
+        border-color: #fff
+    }
+
+    50% {
+        border-color: transparent
+    }
+
+    100% {
+        border-color: #fff
+    }
+}
+
+@-webkit-keyframes fade-out {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(.75);
+        transform: scale(.75)
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(.75);
+        transform: scale(.75)
+    }
+}
+
+@-webkit-keyframes caret-out {
+    0% {
+        border-color: #fff
+    }
+
+    100% {
+        border-color: transparent
+    }
+}
+
+@keyframes caret-out {
+    0% {
+        border-color: #fff
+    }
+
+    100% {
+        border-color: transparent
+    }
+}
+
+header div {
+    -webkit-animation: fade-out 1s linear;
+    animation: fade-out 1s linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s
+}
+
+header>h1 {
+    width: 0;
+    margin: 0 auto;
+    font-size: 7.32vw;
+    font-weight: bolder;
+    letter-spacing: .87vw;
+    overflow: hidden;
+    border-right: 4px solid transparent;
+    -webkit-animation: typing 5s steps(40, end), blink .5s steps(1, start) 10, caret-out .3s linear;
+    animation: typing 5s steps(40, end), blink .5s steps(1, start) 10, caret-out .3s linear;
+    -webkit-animation-delay: 5s, 5s, 8.4s;
+    animation-delay: 5s, 5s, 8.4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+.contribute h1 {
+    padding: .5vw;
+    font-size: 4vw
+}
+
+.contribute p {
+    font-size: 1.49vw
+}
+
+.contribute {
+    background: rgba(0, 0, 0, .1);
+    padding: 1vw;
+    padding-top: 60px;
+    margin: 1vw auto;
+    margin-bottom: 0;
+    text-align: justify
+}
+
+button {
+    display: block;
+    margin: 2vw auto;
+    padding: 10px;
+    font-size: 1.5vw;
+    background-color: #212121;
+    color: #fff;
+    border: none
+}
+
+.contribute h1,
+.contribute p,
+input,
+label {
+    display: block;
+    width: 50%;
+    margin: .73vw auto;
+    font-family: Lato, Arial, sans-serif
+}
+
+input {
+    padding: .73vw
+}
+
+@media (max-width:768px) {
+    .content {
+        margin: 20px auto
+    }
+
+    figure.card blockquote {
+        font-size: 14px;
+        padding: 20px 35px 20px 35px
+    }
+
+    figure.card blockquote.large {
+        font-size: 14px
+    }
+
+    figure.card blockquote:after,
+    figure.card blockquote:before {
+        font-size: 50px
+    }
+
+    figure.card .author {
+        padding: 5px 25px
+    }
+
+    figure.card blockquote:before {
+        top: 25px;
+        left: 1.46vw
+    }
+
+    figure.card blockquote:after {
+        content: "\201D";
+        right: 1.46vw;
+        bottom: 0
+    }
+
+    div.bgm,
+    header {
+        height: 50vh
+    }
+
+    header>h1 {
+        font-size: 10vw
+    }
+
+    button {
+        margin: 4vw auto;
+        font-size: 4vw;
+    }
+
+    .contribute h1,
+    .contribute p,
+    input,
+    label {
+        width: 90%
+    }
+
+    .contribute h1 {
+        padding: .5vw;
+        font-size: 6vw
+    }
+
+    .contribute p {
+        font-size: 2.774vw
+    }
+}
+
+#thankyou_message {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #fafafa;
+    color: #212121;
+    text-align: center;
+    border: 1px solid #212121;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5)
+}
+
+#thankyou_message.show {
+    visibility: visible;
+    -webkit-animation: fadein .5s, fadeout .5s 2.5s;
+    animation: fadein .5s, fadeout .5s 2.5s
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0
+    }
+}

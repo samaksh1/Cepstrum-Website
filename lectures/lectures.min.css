@@ -1,0 +1,36 @@
+.content {
+    text-align: center
+}
+
+.boo {
+    height: 50px
+}
+
+.col-sm-4 {
+    padding: 0 40px;
+    margin: 40px auto
+}
+
+p {
+    text-align: justify
+}
+
+h4 {
+    color: #fff;
+    background-color: #212121;
+    padding: 5px
+}
+
+a {
+    text-decoration: none
+}
+
+a:focus,
+a:hover {
+    text-decoration: none
+}
+
+h4:focus,
+h4:hover {
+    background-color: #616161
+}

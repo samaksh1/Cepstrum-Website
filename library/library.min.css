@@ -1,0 +1,239 @@
+body {
+    background-color: #fafafa;
+}
+
+.bcgimg {
+    background-image: url(library1.jpg);
+    background-size: cover;
+    padding-bottom: 180px;
+    height: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.intro {
+    padding: 10% 20% 0% 10%;
+    color: #F1F1F1;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    font-size: 4.1vh;
+}
+
+.align {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+figure.card {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 1%;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    background-color: white;
+}
+
+figure.list {
+    margin: auto;
+    width: 90%;
+    align-content: center;
+}
+
+.tab-content {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+th,
+td {
+    padding-left: 20%;
+}
+
+.table {
+    background-color: white;
+}
+
+.nav-tabs>li {
+    float: none;
+    display: inline-block;
+    zoom: 1;
+}
+
+.nav-tabs {
+    text-align: center;
+}
+
+.nav-tabs .pure-menu .pure-menu-horizontal .pure-menu-scrollable {
+    border-bottom: 2px solid #DDD;
+}
+
+#myInput {
+    height: 45px;
+    width: 60%;
+    border: .9px solid black;
+    margin: auto;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    border-width: 0;
+}
+
+#myInput:active,
+#myInput:focus {
+    border: 1.2px solid black;
+}
+
+.nav-tabs>li>a {
+    border: none;
+    color: gray;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li>a:hover {
+    border: none;
+    color: black !important;
+    background: transparent;
+}
+
+.nav-tabs>li>a::after {
+    content: "";
+    background: black;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    transition: all 250ms ease 0s;
+    transform: scale(0);
+}
+
+.nav-tabs>li.active>a::after,
+.nav-tabs>li:hover>a::after {
+    transform: scale(1);
+}
+
+.pure-menu-horizontal>li>a::after {
+    content: "";
+    background: black;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    transition: all 250ms ease 0s;
+    transform: scale(0);
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.contribute h1 {
+    padding: .5vw;
+    font-size: 4vw
+}
+
+.contribute p {
+    font-size: 1.49vw
+}
+
+.contribute {
+    background: rgba(0, 0, 0, .1);
+    padding: 1vw;
+    padding-top: 60px;
+    margin: 1vw auto;
+    margin-bottom: 0;
+    text-align: justify
+}
+
+button {
+    display: block;
+    margin: 2vw auto;
+    padding: 10px;
+    font-size: 1.5vw;
+    background-color: #212121;
+    color: #fff;
+    border: none
+}
+
+.contribute h1,
+.contribute p,
+input,
+label {
+    display: block;
+    width: 50%;
+    margin: .73vw auto;
+    font-family: Lato, Arial, sans-serif
+}
+
+input {
+    padding: .73vw
+}
+
+#thankyou_message {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #fafafa;
+    color: #212121;
+    text-align: center;
+    border: 1px solid #212121;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5)
+}
+
+#thankyou_message.show {
+    visibility: visible;
+    -webkit-animation: fadein .5s, fadeout .5s 2.5s;
+    animation: fadein .5s, fadeout .5s 2.5s
+}
+
+
+@media (max-width:768px) {
+
+    .contribute h1,
+    .contribute p,
+    input,
+    label {
+        width: 90%
+    }
+
+    .contribute h1 {
+        padding: .5vw;
+        font-size: 6vw
+    }
+
+    .contribute p {
+        font-size: 2.774vw
+    }
+
+    button {
+        margin: 4vw auto;
+        font-size: 4vw;
+    }
+
+    #myInput {
+        height: 45px;
+        width: 100%;
+        border: .9px solid black;
+        margin: auto;
+    }
+}

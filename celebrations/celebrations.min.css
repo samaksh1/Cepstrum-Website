@@ -1,0 +1,109 @@
+body,
+html {
+    height: 100%
+}
+
+.section {
+    padding: 3.66vw 5.85vw;
+    text-align: justify;
+    position: relative;
+    font-size: 16px
+}
+
+h4 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px Lato, sans-serif;
+    text-align: center
+}
+
+.odd {
+    color: #777;
+    background-color: #fff
+}
+
+.even {
+    color: #ddd;
+    background-color: #282e34
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-hero {
+    position: relative;
+    opacity: .9;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.bgimg-hero {
+    margin-top: 50px;
+    background-image: url(freshers1.jpg);
+    min-height: 100%
+}
+
+.bgimg-1 {
+    background-image: url(freshers.jpg);
+    min-height: 400px
+}
+
+.bgimg-2 {
+    background-image: url(celebrationsteachers.jpg);
+    min-height: 500px
+}
+
+.bgimg-3 {
+    background-image: url(farewell3.jpg);
+    min-height: 400px
+}
+
+.bgimg-4 {
+    background-image: url(proffarewell1.jpg);
+    min-height: 400px
+}
+
+.bgimg-5 {
+    background-image: url(celebrationsedison.jpg);
+    min-height: 100%
+}
+
+.imagecaption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    background-color: transparent;
+    font-size: 20px
+}
+
+.imagecaption .hero {
+    background-color: #111;
+    color: #fff;
+    padding: 1.31vw;
+    font-size: 30px;
+    letter-spacing: .73vw
+}
+
+.five,
+.four,
+.one,
+.three,
+.two {
+    color: #fff;
+    letter-spacing: 3px
+}
+
+.carousel {
+    margin: 1vw auto
+}
+
+img {
+    width: 100%
+}

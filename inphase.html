@@ -1,0 +1,1772 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/manifest.json">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#ffc40d">
+  <link rel="shortcut icon" href="favicons/favicon.ico">
+  <meta name="msapplication-config" content="favicons/browserconfig.xml">
+  <meta name="theme-color" content="#da532c">
+  <!-- favicons code ends -->
+  <link type="text/plain" rel="author" href="humans.txt">
+  <title>InPhase | Cepstrum</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,700" rel="stylesheet">
+  <!-- Bootstrap CCS library -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="inphase/inphase.min.css?v={1}">
+  <link rel="stylesheet" type="text/css" href="common/common.min.css?v={b}">
+</head>
+
+<body>
+    <script src="harlem-shake.js"></script>
+
+  <div id="preloader">
+    <div id="status">
+      <div class="loader">
+        <img src="common/blank.svg" class="blank" alt="Oscilloscope">
+      </div>
+      <p>Decoding resistors...</p>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="common/logo.svg" alt="logo"></a>
+      <a class="navbar-brand navbar-hide" href="https://www.facebook.com/Cepstrum/"><i class="fa fa-facebook fa-lg"></i></a>
+      <a class="navbar-brand navbar-hide" href="#contact"><i class="fa fa-phone fa-lg"></i></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown active">
+          <a class="dropdown-toggle" data-toggle="dropdown">Initiatives <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="active"><a href="#">InPhase</a></li>
+            <li><a href="paperman.html">Paperman</a></li>
+            <li><a href="easylabs.html">Easy Labs</a></li>
+            <li><a href="hoeee.html">Humans of EEE</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Events <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="celebrations.html">Celebrations</a></li>
+            <li><a href="lectures.html">Lectures</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+          </ul>
+        </li>
+        <li><a href="team.html">Team</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right navbar-show">
+        <li><a class="navbar-brand" href="https://www.facebook.com/Cepstrum/"><i class="fa fa-facebook fa-lg"></i></a></li>
+        <li><a class="navbar-brand" href="#contact"><i class="fa fa-phone fa-lg"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- cover -->
+<figure class="super">
+  <a href="#contribute" class="write" data-toggle="tooltip" title="Want to contribute?" data-placement="auto left"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+  <img src="inphase/cover2.png" alt="cover image"/>
+  <figcaption>
+    <div><h2>What is<br/><span>InPhase</span>?</h2></div>
+    <div class="container-fluid">
+      <p>
+      The world is changing very fast.", says Rupert Murdoch, "Big will not beat small anymore. It will be the fast beating the slow." And surely it will be the more informed beating the lesser one, the most knowledge bearing person getting ahead of the rest. Certainly then, for innovating and thus for succeeding, being informed and being ‘in-phase’ with the developments around are as important as having the drive to succeed. 'InPhase', the departmental magazine of the Department of EEE, IIT Guwahati is an endeavor to connect all the students, research scholars and our faculty and to bring them in-phase with what's going on in the department, in the industry and in the electronics and electrical fields in general. Curated and published by the student body Cepstrum, it will also be a medium to gain valuable insights from the experiences of our alumni and from prominent people in the industry as well as academia. InPhase aims to encompass all this and also act a creative outlet for students and professors alike allowing them to showcase their work to the junta.
+      </p>
+
+      <div class="curl"></div>
+    </div>
+    <!-- <a href="#contribute"></a> -->
+  </figcaption>
+</figure>
+
+<!-- All covers -->
+
+<div class="container-fluid">
+
+  <div class="row center-col">
+
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition16.png" alt="Edition 16" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>16th Edition</h2>
+            <a data-toggle="modal" href="#redition16" class="button1">Read Now</a><br><br>
+            <p><a data-toggle="modal" href="#edition16" class="button1">Index</a><a href="https://drive.google.com/file/d/1E8aY4ioJmZm195KlvVwpNdCN85aVfcRi/view?fbclid=IwAR0R3DJsnsASyGSH9WbBuhFDNnIUO6qHVY-pvka8oBP3g2OY4n4xkoMll_0" class="button1"><i class="fa fa-download"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition15.jpg" alt="Edition 15" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>15th Edition</h2>
+            <a data-toggle="modal" href="#redition15" class="button1">Read Now</a><br><br>
+            <p><a data-toggle="modal" href="#edition15" class="button1">Index</a><a href="https://drive.google.com/file/d/1SNORuRI09WaX_RJmxOsCkLkZW2j7Elm5" class="button1"><i class="fa fa-download"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition14.jpg" alt="Edition 14" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>14th Edition</h2>
+            <p><a data-toggle="modal" href="#edition14" class="button1">Index</a><a href="https://inphase2015.wordpress.com/" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition13.jpg" alt="Edition 13" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>13th Edition</h2>
+            <a data-toggle="modal" href="#redition13" class="button1">Read Now</a><br><br>
+            <p><a data-toggle="modal" href="#edition13" class="button1">Index</a><a href="https://www.dropbox.com/s/mi6eptjwn5sy5ku/InPhase_2014_13th_Edition.pdf" class="button1"><i class="fa fa-download"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition12.jpg" alt="Edition 12" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>12th Edition</h2>
+            <a data-toggle="modal" href="#redition12" class="button1">Read Now</a><br><br>
+            <p><a data-toggle="modal" href="#edition12" class="button1">Index</a><a href="https://www.dropbox.com/s/wnia3rwqfnfm7j3/InPhase_March2013.pdf" class="button1"><i class="fa fa-download"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition11.jpg" alt="Edition 11" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>11th Edition</h2>
+            <p><a data-toggle="modal" href="#edition11" class="button1">Index</a><a href="https://www.dropbox.com/s/8ndagmbqn3gyxjt/InPhase_Nov2011.pdf" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition10.jpg" alt="Edition 10" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>10th Edition</h2>
+            <p><a data-toggle="modal" href="#edition10" class="button1">Index</a><a href="https://www.dropbox.com/s/qy6og5oq2kd5d3y/InPhase_Nov2010.pdf" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition9.jpg" alt="Edition 9" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>9th Edition</h2>
+            <p><a data-toggle="modal" href="#edition9" class="button1">Index</a><a href="https://www.dropbox.com/s/tbfw0wnsobq0xqb/InPhase_Jan2010.pdf" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition8.jpg" alt="Edition 8" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>8th Edition</h2>
+            <p><a data-toggle="modal" href="#edition8" class="button1">Index</a><a href="https://www.dropbox.com/s/f7ssu1dclo17nnd/InPhase_May2009.pdf" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition7.jpg" alt="Edition 7" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>7th Edition</h2>
+            <p><a data-toggle="modal" href="#edition7" class="button1">Index</a><a href="https://www.dropbox.com/s/1l3mxi0yj5ei1vn/InPhase_March2009.pdf" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition6.jpg" alt="Edition 6" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>6th Edition</h2>
+            <p><a data-toggle="modal" href="#edition6" class="button1">Index</a><a href="https://www.dropbox.com/s/yx1a62zylibvmip/InPhase_Dec2008.pdf" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition5.jpg" alt="Edition 5" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>5th Edition</h2>
+            <p><a data-toggle="modal" href="#edition5" class="button1">Index</a><a href="https://www.dropbox.com/s/16d9ch2c61krw5s/InPhase_Sept2008.pdf" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition4.jpg" alt="Edition 4" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>4th Edition</h2>
+            <p><a data-toggle="modal" href="#edition4" class="button1">Index</a><a href="https://www.dropbox.com/s/ke5gz9goirk7lyw/InPhase_Feb2008.pdf" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition3.jpg" alt="Edition 3" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>3rd Edition</h2>
+            <p><a data-toggle="modal" href="#edition3" class="button1">Index</a><a href="https://www.dropbox.com/s/ai91kl10xtm5onb/InPhase_Nov2007.pdf" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition2.jpg" alt="Edition 2" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>2nd Edition</h2>
+            <p><a data-toggle="modal" href="#edition2" class="button1">Index</a><a href="https://www.dropbox.com/s/evi5lsu6rciq10r/InPhase_Oct2007.pdf" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        <img src="inphase/edition1.jpg" alt="Edition 1" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h2>1st Edition</h2>
+            <p><a data-toggle="modal" href="#edition1" class="button1">Index</a><a href="https://www.dropbox.com/s/rr95a8f896ydnr7/InPhase_Sept2007.pdf" class="button1">Read Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- All modals for indexes-->
+
+<!-- Blank modal
+<div class="modal fade" id="edition" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"> Edition </h4> <h6>ber 200: Volume , Issue </h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="modal fade" id="edition1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">1st Edition </h4> <h6>September 2007: Volume 1, Issue 1</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>4G Mobile: Is It Time?</td>
+            <td>Anshuman Shukla</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Speech Coding: A Review</td>
+            <td>Dr. Rohit Sinha</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Enlightening Soujourn @ MIT</td>
+            <td>Pratik Kotkar</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>In The Beginning</td>
+            <td>Rahul Sangwan</td>
+            <td>10</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition2" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">1st Edition </h4> <h6>October 2007: Volume 1, Issue 2</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Intellectual Property rights</td>
+            <td>Dr. Amitabh Dixit</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Is Analog A Dead Art</td>
+            <td>Anurag Nilesh, Mukund R, Nipun Sehrawat, Sanjay Ahuja, Swagatika Prusty</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Introduction to Numerical Electromagnetics</td>
+            <td>Dr. Rakhesh Singh Kshetrimayum</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>MEMS-The technology of the future...</td>
+            <td>Talla Vamsi</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>Simplicity is breakthrough everywhere</td>
+            <td>Romesh Khaddar</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>In the Beginning</td>
+            <td>Rahul Sangwa</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>What not to do at internships abroad</td>
+            <td></td>
+            <td>15</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition3" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">3rd Edition </h4> <h6>November 2007: Volume 1, Issue 3</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Weather forecasts going mad</td>
+            <td>Dr. Amit Kumar Mishra</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Network Security for Geeks</td>
+            <td>Mohit Jaggi</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Inside the 6 string machine </td>
+            <td>Vikram Jit Singh & Amit Pa</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Organic LED Displays</td>
+            <td>Talla Vamsi</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Efficient Hardware Implementation</td>
+            <td>Abul Hasan</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Internship Italiano</td>
+            <td>Harsh Fadnavis</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>Signal Processing</td>
+            <td>Amit Juneja</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>What would I be..if not an engineer?</td>
+            <td>Paul Vincent</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>IN the beginning</td>
+            <td></td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>Crazy gadgets</td>
+            <td></td>
+            <td>17</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition4" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">4th Edition </h4> <h6>February 2008: Volume 2, Issue 1</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Visions of the future @ wired next fest'07</td>
+            <td></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>How to save Rs. 1 Lakh per month </td>
+            <td>Rahul Sangwan</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Thinking Beyond Robotics</td>
+            <td>Romesh Khaddar</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Engineers, Entrepreneurs, and Economy</td>
+            <td>Amit Verma</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>New Frontiers of Speech Recognition</td>
+            <td>Tarun Pruthi</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>45 nm technology</td>
+            <td>Talla Vamsi</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>An Experience at IISc</td>
+            <td>Prachi SInghal</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>Nokia BL-5C battery Problem</td>
+            <td>Karan Sikka</td>
+            <td>16</td>
+          </tr>
+           <tr>
+            <td>In the Beginning</td>
+            <td>Rohit Bahl</td>
+            <td>17</td>
+          </tr>
+           <tr>
+            <td>Robust Text Independent Speaker Recognition Based on Hybrid LPC and MFCC Algorithm</td>
+            <td>Sourabh Sriom, Mohit Khurana, Puneet Lakhanpal and Amit Kumar Mishra</td>
+            <td>19</td>
+          </tr>
+           <tr>
+            <td>Photonic crystal lasers move into the blue</td>
+            <td>Harpreet Singh</td>
+            <td>21</td>
+          </tr>
+           <tr>
+            <td>Crazy Gadgets</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition5" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">5th Edition</h4> <h6>September 2008: Volume 3, Issue 1</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Open Source</td>
+            <td>Dr. Amit Kumar Mishra</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Computer Vision for the car industry</td>
+            <td>Reinhard Klette and Zhifeng Liu</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Ultra wide band</td>
+            <td>Shyam Agarwal, Harpreet Singh & Vishal Bhola</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Internship experience @ Cosmic Circuits</td>
+            <td>Rahul Sangwan</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>Disposable Cell Phones</td>
+            <td>Ramnik Singh Malhi </td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>Nomenclature of ICs</td>
+            <td>Vishal Bhola</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>Superconductivity at room temperature</td>
+            <td>Harpreet Singh</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>I-Phone</td>
+            <td>Manisha Shrivastava</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>E-waste</td>
+            <td>Harsh Kumar</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>Math Blues</td>
+            <td>Robert W. Lucky</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Trends Of Communication</td>
+            <td>Dr. Bashudev Dash</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>In the Beginning</td>
+            <td>Rohit Bahl</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td>What not to do at an interview</td>
+            <td></td>
+            <td>31</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition6" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">6th Edition </h4> <h6>December 2008: Volume 3, Issue 2</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Virtually Real yet Really Virtual</td>
+            <td>Nitesh Sinha & Shweta Ghai</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Eco-friendly Green Gadget</td>
+            <td>Manisha Shrivastava</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>EOG based Text Communication System for the physically disabled and speech impaired</td>
+            <td>Talla Vamsi, Suhas Mishra & J.S. Sahambi</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Evolution of storage devices</td>
+            <td>Vishal Bhola</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Integration of Wireless Sensor Networks with IPV6</td>
+            <td>Neelesh Shrivastava</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>Document Athentication System</td>
+            <td></td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>Internship experience @ Spain</td>
+            <td>Saurabh Sriom</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Intel's new architecture for processors</td>
+            <td>Harpreet Singh</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Be the master in supressing noise!</td>
+            <td>Rajib Panigrahi</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>William Shockley</td>
+            <td></td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Origin of Cells</td>
+            <td>Harpreet Singh</td>
+            <td>27</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition7" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">7th Edition </h4> <h6>March 2009: Volume 4, Issue 1</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Open Sources</td>
+            <td>Rahul Sangwan</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Alumini Talk</td>
+            <td>5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Spintronics</td>
+            <td>Harpreet Singh</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>A sneak peak into the future: Cognition Radio</td>
+            <td>Rohil Bahl</td>
+            <td>10</td>
+          </tr>
+           <tr>
+            <td>TCP/IP - An Insight</td>
+            <td>B.S. Sasikanth</td>
+            <td>13</td>
+          </tr>
+           <tr>
+            <td>Solar Cells</td>
+            <td>Harpreet Singh</td>
+            <td>15</td>
+          </tr>
+           <tr>
+            <td>Tutorial on LT Spice</td>
+            <td>Karan Sikka</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>Internship experience @Tubingen University</td>
+            <td>Shaurya AgarwalKaran Sikka</td>
+            <td>23</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition8" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">8th Edition </h4> <h6>May 2009: Volume 4, Issue 2</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Is Analog a Dead Art?</td>
+            <td>Anurag Nilesh, Mukund R, Nipun Sehrawat, Sanjay Ahuja, Swagatika Prusty</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>How to save Rs. 1 Lakh per month!</td>
+            <td>Rahul Sangwan</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>"MEMRISTOR" Missing Fourth Electronic Circuit Element</td>
+            <td>Sumeet Ungratwar & Pratik Patil</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Engineers, Entrepreneurs, and Economy: A Primer</td>
+            <td>Amit Verma</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Robotics: Thinking Beyond</td>
+            <td>Romesh Khaddar</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>Document Authentication Syestem</td>
+            <td></td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>Nomenclature of ICs</td>
+            <td>Vishal Bhola</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Recession: Effects on Electronics Industry</td>
+            <td></td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>Placement '08-09 Revisited</td>
+            <td>Nimish Kulshreshtha</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>The Next Trend</td>
+            <td>Talla Vamsi</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>Math Blues</td>
+            <td>Robert W. Lucky</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>Spintronics</td>
+            <td>Harpreet Singh</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>eWaste</td>
+            <td>Harsh Kumar</td>
+            <td>28</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition9" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">9th Edition </h4> <h6>January 2010: Volume 5, Issue 1</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>The Dilemma</td>
+            <td>Amit Kumar Mishra</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>A First Look @Ubuntu</td>
+            <td>Ajaykumar Kannan</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Internship at Germany</td>
+            <td>Nitesh Sinha</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Mems Switches</td>
+            <td>Pikkii Hemanth</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Wimax</td>
+            <td>Abhijit Mukhopadhyay</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Network Protocols</td>
+            <td>Harpreet Singh</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>Analogue Circuits are here to stay</td>
+            <td></td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>A Fun Tour to MATLAB</td>
+            <td>Debabrata Sengupta</td>
+            <td>18</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition10" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">10th Edition </h4> <h6>November 2010: Decade Issue</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Internet Protocol Television</td>
+            <td>A.Akhilesh</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Blu Ray Vs HD Technology</td>
+            <td>Tushar Balasaheb Sandhan</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Alumini Talk-Vikram Rana</td>
+            <td></td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>LCD Backlighting</td>
+            <td>Ajaykumar Kannan</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Fuzzy Logic Systems</td>
+            <td>Debanga Raj Neog</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>In The Beginning </td>
+            <td>Abhijit Mukkhopadhyay</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>Modern Movie Technology : 3D</td>
+            <td>Tushar Sandhan and Vipul Garg</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>Mobile Microprocessors</td>
+            <td>Palash Ranjan</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Internship at Texas Instruments</td>
+            <td>Akash Dwivedy</td>
+            <td>21</td>
+          </tr>
+           <tr>
+            <td>Just a Touch Away</td>
+            <td>Krunal M Harne</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>Project 54</td>
+            <td>Sahil Goyal</td>
+            <td>27</td>
+          </tr>
+           <tr>
+            <td>Hup Holland Hup</td>
+            <td>Manoj Kaushik</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Internship Cover Letter</td>
+            <td>Vivek Sharma</td>
+            <td>31</td>
+          </tr>
+          <tr>
+            <td>Ecegiri</td>
+            <td>Kailash Atal</td>
+            <td>32</td>
+          </tr>
+           <tr>
+            <td>Batch Pic 2010</td>
+            <td></td>
+            <td>33</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition11" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">11th Edition </h4> <h6>November 2011</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Decoding OMRs</td>
+            <td>Kailash Atal</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Hello Android World</td>
+            <td>Ajaykumar Kannan</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Driver-less Car Technology</td>
+            <td>Amiya Tiwari</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Cognitive Radio</td>
+            <td>Mandar Kulkarni</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Stealth Technology</td>
+            <td>Rumit Singh</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>Magnetic Amplifier </td>
+            <td>Sai Krishna Pallekonda</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>Smart Grid</td>
+            <td>Himanshu Saini</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>Internship Experience</td>
+            <td>Abhinav Agarwal</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>Segmentation of Mouse Tibiae</td>
+            <td>Harshit Bangar</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>Fun Zone</td>
+            <td></td>
+            <td>24</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition12" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">12th Edition</h4> <h6>March 2013</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>reCAPTCHA of Indian Vernacular Texts</td>
+            <td>Ashish Arora, Kailash Atal, Dr.Amit Sethi, Prof P.K Bora</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Helping Stuck Students Talking on a topics</td>
+            <td>Amodh Kant Saxena, Priyasee Pradhan, Ajay Kumar, D.Carolyn P Rose, David Adamson</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>An Enhanced MPPT Strategy</td>
+            <td>Paloma Sodhi, Dhruv Kapoor, Dr. Mahesh S. Illindala</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Russian Roulette</td>
+            <td>Rahul Nallamothu</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>The Car or The Goat</td>
+            <td>Amodh Kant Saxena, Priyasee Pradhan, Ajay Kumar, D.Carolyn P Rose, David Adamson</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Fact Factory</td>
+            <td></td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Fact Factory</td>
+            <td></td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Fun Zone</td>
+            <td>Mridul Krishnan</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>Chip Weds Code</td>
+            <td>Akshay Guati</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>Placement ++</td>
+            <td>Krunal M Harne</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Interviews</td>
+            <td>Devendra Singh Sachan, Hemant Agarwal, Mandar Kulkarni, Krunal M Harne</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Internship Experience</td>
+            <td>Aditi Olemann, Sarthak Gupta, B.L.S Mounica, Anurag Kapale</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>Achievements</td>
+            <td>Devendra Singh Sachan, Siddharth Kabra, Deepchand Prajapati, Rahul Mittal</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>Departmental Activities</td>
+            <td></td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>Words of Wisdom</td>
+            <td></td>
+            <td>16</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition13" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">13th Edition </h4>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Internship Experience</td>
+            <td>Pranav Sodhani</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Summer Project IITB</td>
+            <td>Salil Mamodiya</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Dly Engineering the Eye</td>
+            <td>Hasha Vardhan Pokolla</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Computational Aesthetics</td>
+            <td>Venkat Arun</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Carbon MonoOxide Detection</td>
+            <td>Gaurav Saxena</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Point-of-care colorimetric detection using a Smartphone</td>
+            <td>Kumar Abhishek</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Electronic Cigarette</td>
+            <td>Surya Teja</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>Alumini Story</td>
+            <td>Peter Sam</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>Drop</td>
+            <td>Dr. Kannan Karthik</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>Cartoons</td>
+            <td>Dr. Kannan Karthik</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>Just the Facts</td>
+            <td></td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>Puzzles</td>
+            <td></td>
+            <td>18</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="edition14" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">14th Edition</h4> <h6>Blog edition</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Article No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>5th Semester Tips</td>
+            <td>Vijay Vishwanath</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Drop: An Alluring Poem</td>
+            <td>Dr. Kannan Karthik</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Reply From Professor</td>
+            <td></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Love-Letter from a Microprocessor to a Code</td>
+            <td>Akshay Gulati</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Intership Experience - Schlumberger</td>
+            <td></td>
+            <td>5</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="edition15" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">15th Edition </h4> <h6>December 2017</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Practically speaking - My tryst with my nemesis</td>
+            <td>Prof S. K. Bose</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Campus placements</td>
+            <td></td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Internship experience at Ghent University</td>
+            <td>Nikhil Nagaraj</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>A magician in engineers’ world</td>
+            <td>Pritam Patra</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>Exploring the core - Mathworks</td>
+            <td>Sagnik Middya</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>DAAD WISE internship experience</td>
+            <td>Aparna Balagopalan</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>Quest for developing indigenous e-mobility</td>
+            <td>Interview of Prof. Praveen Kumar</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>Job of a Budding Scientist - Xerox</td>
+            <td>Rishabh Singh</td>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>Passion for VLSI</td>
+            <td>Chandra Kiran Anem</td>
+            <td>28</td>
+          </tr>
+            <tr>
+            <td>Transition: Journey of two years in college</td>
+            <td>Sai Kartikey, Mayank</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Diving deep inside deep learning</td>
+            <td>Sai Dileep Munugoti</td>
+            <td>34</td>
+          </tr>
+          <tr>
+            <td>Battle of wits: A detailed report on day 1 of placements</td>
+            <td>Mohit Gupta</td>
+            <td>36</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="edition16" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">16th Edition </h4> <h6>April 2019</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Article</th>
+            <th>Author</th>
+            <th>Page No.</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>FACULTY ADVISING-In love with broken systems</td>
+            <td>Neeraj Sharma</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>THE NEXT
+              GAME CHANGERS - JOURNEY
+              OF IIT GUWAHATI
+              STARTUPS</td>
+            <td></td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>OF CARTS AND
+              HORSES</td>
+            <td>Dr.Ribhu</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>ANGRY INDIA
+              DOES IT - THE
+              STORY BEHIND
+              INDIA’S FIRST
+              SUPERCOMPUTER</td>
+            <td></td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>MY TOUR OF DUTY
+              IN THE NORTHEAST</td>
+            <td> Prof.
+              Amit Sethi</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>TO INFINITY AND
+              BEYOND</td>
+            <td>Ashutosh Sharma</td>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>FROM EEE TO IEEE
+              - EXPERIENCE OF
+              WORKING IN IEEE
+              IITG STUDENT
+              CHAPTER</td>
+            <td></td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>BIOMEDICAL IMAGE
+              PROCESSING</td>
+            <td></td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>GREAT EXOTIC
+              INDIAN EXPERIENCE
+              – PERSPECTIVE
+              OF AN EXCHANGE STUDENT </td>
+            <td></td>
+            <td>34</td>
+          </tr>
+            <tr>
+            <td>HOLISTIC THINKING
+              IN RESEARCH</td>
+            <td> Dr. Karthik</td>
+            <td>36</td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="redition16" role="dialog">
+  <div class="modal-dialog2">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3>InPhase - 16th Edition</h3>
+      </div>
+      <div class="modal-body">
+      <iframe width="965px" height="600px" src="https://www.yumpu.com/en/embed/view/KfqYyaZkNsFQ2P0T" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="redition15" role="dialog">
+  <div class="modal-dialog2">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3>InPhase - 15th Edition</h3>
+      </div>
+      <div class="modal-body">
+      <iframe width="965px" height="600px" src="https://www.yumpu.com/en/embed/view/pIiaDXFjAJmgf0PC" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="redition13" role="dialog">
+  <div class="modal-dialog2">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3>InPhase - 13th Edition</h3>
+      </div>
+      <div class="modal-body">
+      <iframe width="965px" height="600px" src="https://www.yumpu.com/en/embed/view/HjNbDnMBW2E8wYpQ" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="redition12" role="dialog">
+  <div class="modal-dialog2">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3>InPhase - 12th Edition</h3>
+      </div>
+      <div class="modal-body">
+      <iframe width="965px" height="600px" src="https://www.yumpu.com/en/embed/view/Qejdkh3uYNfxFyEc" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="contribute" id="contribute">
+  <h1>Want to contribute?</h1>
+  <p>Do you write?  Want to share your research? Do you like designing magazines? Found something ground-breaking? Any amazing experience to share? Do you sketch, paint, doodle or joke? Wish to be part of our team?<br/>Fill the form! And we'll get in touch with you.</p>
+
+  <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxnDdso8VcLIyrIqgwbwP0TssrzZpIGM0qpaW5AIGj5Rt-sltI/exec">
+    <!-- change the form action to your script url -->
+
+    <fieldset>
+      <label for="name">Name: </label>
+      <input id="name" name="name" placeholder="Your name..." required>
+    </fieldset>
+
+    <fieldset>
+      <label for="email">E-mail/Webmail: </label>
+      <input id="email" type="email" name="email" placeholder="Your email/webmail address..." required>
+    </fieldset>
+
+    <fieldset>
+      <label for="mobile">Mobile Number: </label>
+      <input id="mobile" type="number" name="mobile" placeholder="Your 10 digit mobile number..." required>
+    </fieldset>
+
+    <button>Send <i class="fa fa-paper-plane"></i></button>
+
+  </form>
+</div>
+
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+<div id="thankyou_message">
+  We have received your details!
+</div>
+
+<div class="container-fluid card">
+  <div id="contact" class="row">
+    <div class="col-md-2">
+      <h3><strong>Quick links</strong></h3>
+      <a href="http://www.iitg.ac.in/">IIT Guwahati</a>
+      <br><a href="http://www.iitg.ac.in/eee/">Department of EEE</a>
+    </div>
+    <div class="col-md-8">
+      <h3><strong>Contact Us</strong></h3>
+      <div class="row">
+        <div class="col-md-6">
+          <p> E-mail: cepstrum@iitg.ac.in<br> General Secretary (Konark Jain): 9957997211<br> Assoc. Gen Sec
+            (Parag Agrawal): 8265874092</p>
+        </div>
+        <div class="col-md-6">
+          <p> E-mail (InPhase): inphase@iitg.ac.in<br> Chief Editor (Deepti Mathur): 9530072989<br> Web Ops (Abhinav Singh):
+            7906746990</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <h3><strong>Follow Us</strong></h3>
+      <a href="https://www.facebook.com/Cepstrum/">Facebook <i class="fa fa-lg fa-facebook"></i> </a>
+      <br><a href="https://medium.com/@cepstrumeeeiitg">Medium <i class="fa fa-lg fa-medium"></i> </a>
+      <br><a href="https://www.youtube.com/user/ECEatIITG">YouTube <i class="fa fa-lg fa-youtube-play"></i> </a>
+    </div>
+  </div>
+  <div class="row credits">
+    <div class="col-md-4">
+      <em><strong>Behind the code and design: </strong> Sarvesh Raj</em>
+    </div>
+    <div class="col-md-8">
+      <em><strong>Behind the content: </strong> Shruti Mittal, Uddeshya Mathur, Parth Maheshwari, Sasank Gurajapu</em>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery library -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- font awesome library -->
+<script type="text/javascript" src="https://use.fontawesome.com/c2f7320238.js"></script>
+
+<script>
+    // make sure window is loaded
+  jQuery(window).on('load',function() {
+      // will first fade out the loading animation
+  jQuery("#status").fadeOut();
+      // will fade out the whole DIV that covers the website.
+  jQuery("#preloader").delay(1000).fadeOut("slow");
+  jQuery("#onLoad").modal('show')
+  });
+</script>
+
+<script type="text/javascript" data-cfasync="false">
+  function validEmail(email) { // see:
+  var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+  return re.test(email);
+  }
+  // get all data in form and return object
+  function getFormData() {
+    var elements = document.getElementById("gform").elements; // all form elements
+    var fields = Object.keys(elements).map(function(k) {
+      if(elements[k].name !== undefined) {
+        return elements[k].name;
+      // special case for Edge's html collection
+      }else if(elements[k].length > 0){
+        return elements[k].item(0).name;
+      }
+    }).filter(function(item, pos, self) {
+      return self.indexOf(item) == pos && item;
+    });
+    var data = {};
+    fields.forEach(function(k){
+      data[k] = elements[k].value;
+      var str = ""; // declare empty string outside of loop to allow
+                    // it to be appended to for each item in the loop
+      if(elements[k].type === "checkbox"){ // special case for Edge's html collection
+        str = str + elements[k].checked + ", "; // take the string and append
+                                                // the current checked value to
+                                                // the end of it, along with
+                                                // a comma and a space
+        data[k] = str.slice(0, -2); // remove the last comma and space
+                                    // from the  string to make the output
+                                    // prettier in the spreadsheet
+      }else if(elements[k].length){
+        for(var i = 0; i < elements[k].length; i++){
+          if(elements[k].item(i).checked){
+            str = str + elements[k].item(i).value + ", "; // same as above
+            data[k] = str.slice(0, -2);
+          }
+        }
+      }
+    });
+    console.log(data);
+    return data;
+  }
+
+  function handleFormSubmit(event) {  // handles form submit withtout any jquery
+    event.preventDefault();           // we are submitting via xhr below
+    var data = getFormData();         // get the values submitted in the form
+    if( !validEmail(data.email) ) {   // if email is not valid show error
+      document.getElementById('email-invalid').style.display = 'block';
+      return false;
+    } else {
+      var url = event.target.action;  //
+      var xhr = new XMLHttpRequest();
+      var x = document.getElementById("thankyou_message");
+      x.className = "show";
+      xhr.open('POST', url);
+      // xhr.withCredentials = true;
+      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      xhr.onreadystatechange = function() {
+          console.log( xhr.status, xhr.statusText );
+          console.log(xhr.responseText);
+          // document.getElementById('gform').style.display = 'none'; // hide form
+          setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+          return;
+      };
+      // url encode form data for sending as post data
+      var encoded = Object.keys(data).map(function(k) {
+          return encodeURIComponent(k) + '=' + encodeURIComponent(data[k]);
+      }).join('&');
+      xhr.send(encoded);
+    }
+  }
+  function loaded() {
+    console.log('contact form submission handler loaded successfully');
+    // bind to the submit event of our form
+    var form = document.getElementById('gform');
+    form.addEventListener("submit", handleFormSubmit, false);
+  }
+  document.addEventListener('DOMContentLoaded', loaded, false);
+</script>
+</body>
+</html>

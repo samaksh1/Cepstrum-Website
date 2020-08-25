@@ -1,0 +1,55 @@
+As of 10th July 2017:
+
+/* TEAM */
+			
+		Code Chef: Sarvesh Raj
+		Contact: sarvesh0803 [at] gmail.com
+
+		Web Designer: Sarvesh Raj
+		Hi again!
+
+		Photographs: Sasank Gurajapu
+
+		Content Curators:
+			Shruti Mittal
+			Parth Maheshwari
+			Uddeshya Mathur
+			Mayank Singla
+			Sasank Gurajapu
+			Nilesh Mittal
+
+/* THANKS */
+		
+		Support: Sai Bhaskar
+
+		HTML form send E-mail via google script without server: Sean McKenna
+																https://mckennapsean.com/
+
+		Little Snippets: littlesnippets.net
+
+		Real Favicon Generator: http://realfavicongenerator.net/
+
+		Batch Image Resizing Made Easy: birme.net
+
+		CSS Paper Text: Mattia Astorino 
+						https://codepen.io/equinusocio/
+
+		3D Paper button effects: Ashley Nolan
+								 https://codepen.io/ashleynolan
+
+		The amazing people behind Bootstrap: https://getbootstrap.com
+
+		The amazing people behind jQuery: https://jquery.com
+
+		The amazing people behind Font Awesome: https://fontawesome.io
+
+/* SITE */
+		
+		Language: English
+		
+		IDE: Sublime Text, Adobe Illustrator, Adobe Photoshop
+
+
+
+
+

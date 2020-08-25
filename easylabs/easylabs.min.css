@@ -1,0 +1,111 @@
+body,
+html {
+    height: 100%
+}
+
+div.wrap {
+    height: 75%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 1)
+}
+
+div.wrap>p {
+    font-size: 4vh;
+    padding: 5px
+}
+
+div.wrap>div.super {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    background-image: url(lab.jpg);
+    background-size: cover;
+    z-index: -1;
+    -webkit-filter: blur(5px);
+    filter: blur(5px)
+}
+
+div.wrap:hover>div.super {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+h2 {
+    font-size: 5vh;
+    text-align: center
+}
+
+.wrap h2 {
+    font-weight: bolder;
+    font-size: 7.81vh
+}
+
+ul.headers {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center
+}
+
+ul.headers>li {
+    display: inline-block;
+    margin: 0 20px
+}
+
+.raise {
+    position: relative;
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transform-style: flat;
+    transform-style: flat;
+    -webkit-transition: all 250ms ease-out;
+    transition: all 250ms ease-out
+}
+
+.raise:hover {
+    -webkit-box-shadow: 0 15px 10px -10px rgba(31, 31, 31, .5);
+    box-shadow: 0 15px 10px -10px rgba(31, 31, 31, .5);
+    border: 1px solid #fff
+}
+
+a {
+    font-family: Lato, Arial, sans-serif;
+    text-decoration: none
+}
+
+a:focus,
+a:hover {
+    color: #000;
+    text-decoration: none;
+    outline: 0
+}
+
+.contentWrap {
+    margin: 50px auto
+}
+
+@media (max-width:768px) {
+    .loader-super {
+        margin-top: 20vh !important
+    }
+
+    div.wrap p {
+        font-size: 3vh
+    }
+}

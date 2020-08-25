@@ -1,0 +1,169 @@
+body {
+    font-family: Lato, Arial, sans-serif
+}
+
+.navbar {
+    background: #000;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28)
+}
+
+.navbar-inverse {
+    border: none !important
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none
+}
+
+.navbar .navbar-collapse {
+    text-align: center
+}
+
+.navbar-hide {
+    visibility: visible
+}
+
+.navbar-show {
+    visibility: hidden
+}
+
+.card .col-md-8>h3 {
+    text-align: left
+}
+
+@media (min-width:768px) {
+
+    .navbar-inverse .navbar-nav>.active>a,
+    .navbar-inverse .navbar-nav>.active>a:focus,
+    .navbar-inverse .navbar-nav>.active>a:hover {
+        border-bottom: 3px solid #fff
+    }
+
+    ul.navbar-nav {
+        margin-left: -200px
+    }
+
+    .navbar-hide {
+        visibility: hidden
+    }
+
+    .navbar-show {
+        visibility: visible
+    }
+
+    .col-md-2 i {
+        padding: 0 7px
+    }
+
+    .card .col-md-8>h3 {
+        text-align: center
+    }
+}
+
+.navbar .navbar-collapse {
+    line-height: 0
+}
+
+.navbar-brand img {
+    height: 35px;
+    width: 121.73px;
+    margin-top: -5px;
+    -webkit-filter: brightness(.9);
+    filter: brightness(.9);
+    -webkit-transition: -webkit-filter 250ms ease;
+    transition: -webkit-filter 250ms ease;
+    transition: filter 250ms ease;
+    transition: filter 250ms ease, -webkit-filter 250ms ease
+}
+
+.navbar-brand img:hover {
+    -webkit-filter: brightness(.6);
+    filter: brightness(.6)
+}
+
+.dropdown {
+    cursor: pointer
+}
+
+.card {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3)
+}
+
+#contact {
+    color: #fff;
+    background: #212121;
+    padding: 20px 20px
+}
+
+.card a {
+    text-decoration: none;
+    color: #fff
+}
+
+.card a:focus,
+.card a:hover {
+    color: gray;
+    text-decoration: none;
+    outline: 0
+}
+
+.credits {
+    padding: 10px
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #212121;
+    z-index: 9999 !important;
+    height: 100%
+}
+
+#status p {
+    color: #fff;
+    font-size: 7.81vh;
+    text-align: center
+}
+
+.loader {
+    width: 30vh;
+    margin: 27vh auto;
+    margin-bottom: 10vh;
+    background: url(sine.svg);
+    background-size: 12.9vh 6.5vh;
+    background-position: center;
+    background-repeat: repeat-x;
+    -webkit-animation: move 2s linear infinite;
+    animation: move 2s linear infinite
+}
+
+.blank {
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1)
+}
+
+@-webkit-keyframes move {
+    0% {
+        background-position: 0 center
+    }
+
+    100% {
+        background-position: 12.9vh center
+    }
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 center
+    }
+
+    100% {
+        background-position: 12.9vh center
+    }
+}

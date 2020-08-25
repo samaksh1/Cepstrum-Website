@@ -1,0 +1,52 @@
+.content {
+    text-align: center
+}
+
+.boo {
+    height: 50px
+}
+
+.col-sm-4 {
+    padding: 0 40px;
+    margin: 40px auto
+}
+
+.content p {
+    text-align: justify
+}
+
+.content h4 {
+    color: #fff;
+    background-color: #212121;
+    padding: 5px
+}
+
+.content .large_text {
+    font-size: 23px
+}
+
+.modal.carousel {
+    position: fixed
+}
+
+.modal-content {
+    border-radius: 0
+}
+
+.modal-body {
+    padding: 0
+}
+
+.content a {
+    text-decoration: none
+}
+
+.content a:focus,
+.content a:hover {
+    text-decoration: none
+}
+
+.content h4:focus,
+.content h4:hover {
+    background-color: #616161
+}
