@@ -83,8 +83,20 @@ body {
     filter: brightness(.6)
 }
 
-.dropdown {
+.dropdown  {
     cursor: pointer
+}
+.dropdown-submenu:focus .dropdown-content{
+  display:block;
+}
+.dropdown-submenu:active .dropdown-content{
+  display:block;
+}
+.dropdown-submenu:hover .dropdown-content{
+  display:block;
+}
+.hhhh:hover{
+  display: block;
 }
 
 .card {

@@ -31,7 +31,7 @@
 <body data-spy="scroll" data-target=".menu" data-offset="50">
     <script src="harlem-shake.js"></script>
 
-  
+
   <div id="preloader">
     <div id="status">
       <div class="loader">
@@ -59,6 +59,8 @@
           <li class="dropdown active">
             <a class="dropdown-toggle" data-toggle="dropdown">Initiatives <span class="caret"></span></a>
             <ul class="dropdown-menu">
+              <li><a href="https://medium.com/inked-intellects?fbclid=IwAR3UiX_2V4u-oM860uubTmWc-IDx-Uq_MP84qA-i1K9OnZBYqKzFF4zOgXc">Inked Intellects</a></li>
+              <li><a href="https://medium.com/inplace?fbclid=IwAR1rWBXEr2N_07xW0BdIdKpNeN9m3G9-1RPGg0kTI0B4kPBLIUKsCLObdvk">InPlace</a></li>
               <li><a href="inphase.html">InPhase</a></li>
               <li><a href="paperman.html">Paperman</a></li>
               <li><a href="easylabs.html">Easy Labs</a></li>
@@ -1005,12 +1007,12 @@
         var str = ""; // declare empty string outside of loop to allow
         // it to be appended to for each item in the loop
         if (elements[k].type === "checkbox") { // special case for Edge's html collection
-          str = str + elements[k].checked + ", "; // take the string and append 
-          // the current checked value to 
-          // the end of it, along with 
+          str = str + elements[k].checked + ", "; // take the string and append
+          // the current checked value to
+          // the end of it, along with
           // a comma and a space
-          data[k] = str.slice(0, -2); // remove the last comma and space 
-          // from the  string to make the output 
+          data[k] = str.slice(0, -2); // remove the last comma and space
+          // from the  string to make the output
           // prettier in the spreadsheet
         } else if (elements[k].length) {
           for (var i = 0; i < elements[k].length; i++) {
